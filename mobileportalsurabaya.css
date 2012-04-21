@@ -1,0 +1,283 @@
+@charset "utf-8";
+/* CSS Document */
+a:link, a:visited {
+	color: #039;
+}
+a:hover {
+	color: #f00;
+}
+h4 {
+	color: #06c;
+}
+h5 {
+	color: #000;
+	background-color: #cff;
+	border-top: 1px solid #fff;
+	border-bottom: 2px solid #9cf;
+}
+h5 a:link {
+	color: #000;
+}
+h5 a:visited {
+	color: #000;
+}
+h5 a:hover {
+	color: #e00;
+}
+form {
+	margin: 0;
+	padding: 0;
+}
+table {
+	font-size: 12px;
+}
+.inputsubmit {
+	font-family: Verdana;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	color: #fff;
+	background-color: #e00;
+	border: 1px solid #e00;
+}
+/* HEADER */
+#kanal {
+	background-color: #06f;
+	border-top: 1px solid #fff;
+}
+#kanal a:link {
+	color: #ff0;
+}
+#kanal a:visited {
+	color: #ff0;
+}
+#kanal a:hover {
+	color: #fff;
+}
+#history {
+	color: #333;
+	font-size: 11px;
+	background-color: #cff;
+	margin: 0;
+	padding: 2px 6px;
+	border-top: 1px solid #fff;
+	border-bottom: 2px solid #9cf;
+	clear: both;
+}
+.headlain {
+	font-size: 14px;
+	font-weight: bold;
+	color: #06f;
+	background-color: #ffc;
+	margin: auto;
+	padding: 4px 8px;
+	border-bottom: 1px solid #cc9;
+	clear: both;
+}
+/* CONTENT */
+#framehead {
+	background-color: #fff;
+}
+#framehead a:link {
+	color: #f00;
+}
+#framehead a:visited {
+	color: #f00;
+}
+#framehead a:hover {
+	color: #009;
+}
+#framehead h3 {
+	font-size: 13px;
+	padding: 2px 0;
+}
+#framehead h4 {
+	font-size: 12px;
+}
+#framehead .paging {
+	background-color: #9ff;
+}
+#framehead .beritalalu {
+	background-color: #6cf;
+	border-top: 1px solid #fff;
+}
+#framehead .headline {
+	border-bottom: 1px solid #9cf;
+}
+#framehead .headline:hover {
+	border-bottom: 1px solid #9cf;
+	background-color: #cff;
+}
+#framehead .nonhl {
+	border-bottom: 1px solid #9cf;
+}
+#framehead .nonhl:hover {
+	border-bottom: 1px solid #9cf;
+	background-color: #cff;
+}
+#framehead .nonhl .namekonsul {
+	color: #fff;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 0 4px 2px 4px;
+	margin: 2px 0;
+	background-color: #666;
+	clear: both;
+}
+.caridata {
+	color: #fff;
+	background-color: #39f;
+	border-top: 1px solid #fff;
+	margin: 0;
+	padding: 3px 8px;
+	clear: both;
+}
+.caridata .input {
+	font-size: 12px;
+}
+.caridata .inputsubmit {
+	text-align: center;
+	clear: both;
+}
+/* Content */
+#content {
+	border-bottom: 1px solid #9cf;
+}
+#content h1 {
+	color: #e00;
+}
+#content h2 {
+	color: #00c;
+}
+#content h3 {
+	color: #fff;
+	background-color: #90c;
+}
+#content h4 {
+	color: #000;
+}
+#content h5 {
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 11px;
+	color: #000;
+	background-color: #ff9;
+	margin: 0 0 2px 0;
+	padding: 2px 6px;
+	border-top: 1px solid #fff;
+	border-bottom: 2px solid #9cf;
+	clear: both;
+}
+#kommentar ul {
+	border-top: 1px solid #9cc;
+}
+#kommentar ul li {
+	color: #000;
+	border-bottom: 1px solid #9cc;
+}
+#kommentar .pro {
+	color: #fff;
+	background-color: #090;
+}
+#kommentar .kontra {
+	color: #fff;
+	background-color: #e00;
+}
+#kommentar .kommentlagi {
+	color: #fff;
+	background-color: #36f;
+}
+#kommentar .komment {
+	color: #fff;
+	background-color: #e00;
+}
+#content .paging {
+	background-color: #9ff;
+}
+#content .comment {
+	border-top: 1px solid #9999CC;
+}
+#content .frameform {
+	border-bottom: 1px solid #cff;
+}
+#content .frameform {
+	border-bottom: 1px solid #9cc;
+}
+#content .frameform p {
+	border-top: 1px solid #9cc;
+}
+#content .input {
+	border: 1px solid #9cc;
+}
+#content .commenttxt {
+	border: 1px solid #9cc;
+}
+#content .comentteks {
+	border: 1px solid #9cc;
+}
+#content .code {
+	border: 1px solid #9cc;
+}
+#content .alamatkomennya1 {
+	padding: 4px 0;
+	border-bottom: 1px solid #cc9;
+}
+#content .alamatkomennya2 {
+	background-color: #ffc;
+	padding: 4px 6px;
+	border-bottom: 1px solid #cc9;
+}
+#content .c1 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 13px;
+	color: #fff;
+	background-color: #e00;
+}
+#content .c2 {
+	background-color: #fff;
+}
+#content .c3 {
+	background-color: #cff;
+}
+#content .c4 {
+	font-size: 10px;
+	color: #e00;
+}
+#fitur {
+	border-bottom: 1px solid #cff;
+}
+#fitur:hover {
+	border-bottom: 1px solid #9cf;
+	background-color: #cff;
+}
+#menus ul li {
+	color: #f63;
+}
+#ads1{
+	background-color: #f30;
+}
+#ads2 {
+	background-color: #0c0;
+}
+#ads3 {
+	background-color: #f60;
+}
+/* Footer */
+#nav-bottom{
+	background-color: #06f;
+}
+.kiriminfo {
+	width: 85px;
+	text-align: center;
+	background-color: #FF9;
+	padding: 1px 5px;
+	margin: 10px;
+	border: 1px solid #CC9;
+}
+.mrg {
+	margin-top: 10px;
+}
+.fl {
+	float: left;
+}

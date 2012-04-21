@@ -1,0 +1,413 @@
+@charset "utf-8";
+/* CSS Document */
+a:link, a:visited {
+	color: #060;
+}
+a:hover {
+	color: #f30;
+}
+h3 {
+	font-size: 13px;
+}
+h4 {
+	color: #f60;
+	font-size: 12px;
+}
+h5 {
+	color: #f30;
+	background-color: #FFFF99;
+	border-bottom: 2px solid #cc6;
+}
+h5 a:link {
+	color: #f30;
+}
+h5 a:visited {
+	color: #f30;
+}
+h5 a:hover {
+	color: #060;
+}
+form {
+	margin: 0;
+	padding: 0;
+}
+table {
+	font-size: 12px;
+}
+.inputsubmit {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 13px;
+	color: #fff;
+	background-color: #f30;
+	border: 1px solid #f30;
+}
+/* HEADER */
+#kanal {
+	background-color: #063;
+}
+#history {
+	color: #333;
+	background-color: #FFFF99;
+	border-top: 1px solid #fff;
+	border-bottom: 2px solid #cc6;
+}
+#history a:link {
+	color: #f30;
+}
+#history a:visited {
+	color: #f30;
+}
+#history a:hover {
+	color: #060;
+}
+.headlain {
+	font-size: 14px;
+	font-weight: bold;
+	color: #f60;
+	background-color: #ffc;
+	margin: auto;
+	padding: 4px 8px;
+	border-bottom: 1px solid #cc9;
+	clear: both;
+}
+/* CONTENT */
+#framehead {
+	background-color: #ffc;
+}
+#framehead h3 {
+	font-size: 13px;
+	padding: 2px 0;
+	margin: 0;
+	line-height: 120%;
+}
+#framehead h4 {
+	font-size: 12px;
+	color: #f60;
+	padding: 0;
+	margin: 0;
+	line-height: 110%;
+}
+#framehead .paging {
+	background-color: #cf9;
+}
+#framehead .beritalalu {
+	background-color: #9f6;
+}
+#framehead .headline {
+	border-bottom: 1px solid #cc9;
+}
+#framehead .headline:hover {
+	border-bottom: 1px solid #9c6;
+	background-color: #cf9;
+}
+#framehead .headimg {
+	text-align: center;
+	border-bottom: 1px solid #cc9;
+	margin: 0;
+	padding: 2px 8px;
+	clear: both;
+}
+#framehead .headimg h3 {
+	font-size: 14px;
+	text-align: center;
+	color: #f30;
+}
+#framehead .nonhl {
+	border-bottom: 1px solid #cc9;
+}
+#framehead .nonhl h4 a:link {
+	color: #f30;
+	font-size: 13px;
+}
+#framehead .nonhl h4 a:visited {
+	color: #f30;
+	font-size: 13px;
+}
+#framehead .nonhl:hover {
+	border-bottom: 1px solid #9c6;
+	background-color: #cf9;
+}
+#framehead .frameform {
+	border-bottom: 1px solid #cc9;
+	margin: 0;
+	padding: 15px 8px;
+	clear: both;
+}
+#framehead .frameform h2 {
+	font-size: 17px;
+	color: #f30;
+	margin: 0;
+	padding: 7px 0 0 0;
+}
+#framehead .frameform h3 {
+	font-size: 15px;
+	margin: 0;
+	padding: 7px 0 0 0;
+}
+#framehead .frameform h4 {
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+	padding: 5px 0 2px 0;
+}
+#framehead .frameform .input {
+	font-size: 12px;
+	margin: 2px 0;
+	width: 150px;
+	border: 1px solid #993;
+	clear: both;
+}
+#framehead .frameform .inputsubmit {
+	padding: 1px 10px;
+	margin: 10px 0 2px 0;
+	clear: both;
+}
+#framehead .frameform label {
+	width: 25px;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+.caridata {
+	color: #fff;
+	background-color: #3c3;
+	border-top: 1px solid #fff;
+	margin: 0;
+	padding: 3px 8px;
+	clear: both;
+}
+.caridata .input {
+	font-size: 12px;
+}
+.caridata .inputsubmit {
+	text-align: center;
+	clear: both;
+}
+/* Content */
+#content {
+	border-bottom: 1px solid #cc6;
+}
+#content h1 {
+	color: #f30;
+}
+
+#content img {
+	max-width: 250px;
+}
+
+#content h2 {
+	color: #060;
+}
+#content h3 {
+	background-color: #3c3;
+}
+#content h5 {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	color: #000;
+	background-color: #ff9;
+	margin: 0 0 2px 0;
+	padding: 2px 6px;
+	border-top: 1px solid #fff;
+	border-bottom: 2px solid #cc6;
+	clear: both;
+}
+#content hr {
+	color: #CCCC66;
+}
+#content form {
+	margin: 10px 0;
+	padding: 0;
+}
+#content .bbgambar {
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+#content .bbgambar img {
+	margin: 0;
+	padding: 0;
+	float: none;
+}
+#content .paging {
+	background-color: #cf9;
+}
+#content .frameform {
+	border-bottom: 1px solid #cc6;
+	border-top: 0;
+	clear: both;
+}
+#content .frameform p {
+	padding: 3px 0;
+	margin: 0;
+	border-top: 1px solid #cc6;
+	clear: both;
+}
+#content .input {
+	border: 1px solid #993;
+}
+#content .commenttxt {
+	border: 1px solid #993;
+}
+#content .comentteks {
+	border: 1px solid #993;
+}
+#content .code {
+	border: 1px solid #cc6;
+}
+#content .alamatkomennya1 {
+	padding: 4px 0;
+	border-bottom: 1px solid #cc6;
+}
+#content .alamatkomennya2 {
+	background-color: #ffc;
+	padding: 4px 6px;
+	border-bottom: 1px solid #cc6;
+}
+.menunext {
+    background-color: #CCFF99;
+    clear: both;
+    line-height: 220%;
+    margin: 0;
+    padding: 2px;
+    text-align: center;
+}
+.menunext a, .menunext a:link {
+    background-color: #00CC00;
+    border: 1px solid #009900;
+    color: #FFFFFF;
+    padding: 5px 8px 3px;
+    text-decoration: none;
+}
+.menunext a:hover {
+    background-color: #FF3300;
+    border: 1px solid #993300;
+    color: #FFFFFF;
+}
+.menunext a.selected {
+    background-color: #006600;
+    border: 1px solid #003300;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#content .galeriimg {
+	width: 200px;
+	padding: 0 0 5px 0;
+	margin: 0;
+	clear: both;
+}
+#content .hasil {
+	font-weight: bold;
+	background-color: #ff6;
+	padding: 5px 9px;
+	margin: 5px 0;
+	clear: both;
+}
+#kommentar ul {
+	border-top: 1px solid #cc6;
+}
+#kommentar ul li {
+	color: #000;
+	border-bottom: 1px solid #cc6;
+}
+#kommentar .komment {
+	color: #fff;
+	background-color: #f60;
+}
+#kommentar .kommentlagi {
+	color: #fff;
+	background-color: #f96;
+}
+#fotobalita {
+	border-bottom: 1px solid #fff;
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+#fotobalita h3 {
+	padding: 8px 0 2px 0;
+	margin: 0;
+}
+#fotobalita .foto {
+	min-height: 65px;
+	height: auto !important;
+	height: 65px;
+	border-bottom: 1px solid #cc9;
+	margin: 0;
+	padding: 6px 8px;
+	clear: both;
+}
+#fotobalita .foto:hover {
+	border-bottom: 1px solid #9c6;
+	background-color: #ffc;
+}
+#fotobalita .foto img {
+	margin: 0 4px 0 0;
+	float: left;
+}
+#subcontent {
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+#subcontent .nonhl {
+	border-bottom: 1px solid #fff;
+	margin: 0;
+	padding: 2px 8px;
+	clear: both;
+}
+#subcontent .nonhl:hover {
+	border-bottom: 1px solid #cc9;
+	background-color: #cf9;
+}
+#menus ul li {
+	color: #f63;
+}
+.link01 {
+	background-color: #9f6;
+}
+.link02 {
+	color: #f60;
+	background-color: #cf9;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #9c6;
+}
+#ads1{
+	background-color: #f00;
+}
+#ads2 {
+	background-color: #099;
+}
+#ads3 {
+	background-color: #f60;
+}
+/* Footer */
+#nav-bottom{
+	background-color: #063;
+}
+
+/* multiple pageing */
+.framefotoff {
+    clear: both;
+    margin: 10px 0 5px;
+    padding: 0;
+    text-align: center !important;
+}
+.framefotoff img {
+    clear: both !important;
+    float: none !important;
+    margin: 0;
+    padding: 2px 0;
+    width: 225px;
+}
+.share {
+    background-color: #CCFF99;
+    margin-top: 5px;
+    padding: 5px;
+}
+.share h4 {
+    margin-top: 0 !important;
+}

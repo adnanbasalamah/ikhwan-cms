@@ -1,0 +1,45 @@
+/* Things to do for tvrsa CMS
+
+Admin Capabilities
+1. Show video list
+2. Upload videos
+3. Edit Video
+4. Delete Video
+5. show category
+6. add category
+7. edit category
+8. delete category 
+9. show producer
+10. add producer 
+11. edit producer
+12. delete producer
+13. show_video_frontpage
+14. show_single_video
+15. add user+pass, delete user,edituserpass,list
+
+
+Video Attribute
+0. video_id
+1. title
+2. teaser
+3. video url
+4. screenshoot url (thumb,small,medium,big)
+5. tags
+6. category (klip, drama, talkshow, iklan)
+7. producer (zone, negeri)
+
+
+Video cat
+0. category_id
+1. category
+
+Producer
+0. producer_id
+1. producer
+*/
+
+
+
+
+
+
